@@ -36,6 +36,7 @@ img{
     body{
         background-color:blueviolet;
         color:aliceblue;
+        font-size: 30px;
     }
     article{
         display: flex;
