@@ -21,33 +21,31 @@ img{
 @media screen and (min-width: 500px){
     body{
         background-color: aquamarine;
+        font-size: 20px;
     }
-  
-      
+    .contact-details-container{
+        display: flex;
+        justify-content: center;
+        gap: 75px;
+        margin-top: 50px;
+    }
+    
+
+@media screen and (min-width: 768px){
+    
+    body{
+        background-color:blueviolet;
+        color:aliceblue;
+    }
     article{
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        flex-wrap: nowrap;
-        margin-left: 100px;
-        
-
+        margin-left: 75px;
     }
-    #individual{
-       
+    .contact-details-container{
+        margin-left:100px;
+        flex-direction: column;
+        align-content: space-around;
     }
-    }
-    
-        
-        
-
-    }
-      
 }
-
-@media screen and(min-width: 768px){
-    
-    body{
-        background-color: firebrick;
-    }
 }
